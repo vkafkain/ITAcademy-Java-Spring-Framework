@@ -1,4 +1,4 @@
-package n2exercici1;
+package TascaS101.n2exercici1;
 
 public interface Rellotge {
     void alarma();

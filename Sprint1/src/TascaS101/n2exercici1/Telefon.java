@@ -1,8 +1,8 @@
-package n2exercici1;
+package TascaS101.n2exercici1;
 
 public class Telefon {
-    public String marca;
-    public String model;
+    private String marca;
+    private String model;
 
     public Telefon(String marca, String model) {
         this.marca = marca;

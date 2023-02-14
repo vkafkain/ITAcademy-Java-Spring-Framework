@@ -1,4 +1,4 @@
-package n1exercici2;
+package TascaS101.n1exercici2;
 
 public class Cotxe {
     public static final String marca = "audi";

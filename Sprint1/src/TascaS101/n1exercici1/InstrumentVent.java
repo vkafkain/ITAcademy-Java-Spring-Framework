@@ -1,4 +1,4 @@
-package n1exercici1;
+package TascaS101.n1exercici1;
 
 public class InstrumentVent extends Instrument{
     public InstrumentVent(String name, int preu) {

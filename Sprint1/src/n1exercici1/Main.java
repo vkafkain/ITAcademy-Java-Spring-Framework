@@ -1,7 +1,5 @@
 package n1exercici1;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
       //Càrrega de la classe provocada per la creació de la primera instancia d'aquesta

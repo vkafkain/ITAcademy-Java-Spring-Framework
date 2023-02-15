@@ -10,4 +10,9 @@ public class NoticiaTenis extends Noticia{
         this.tenista = tenista;
     }
 
+    @Override
+    public void calcularPreuNoticia() {
+        int preuInicial = 150;
+        int bigThree = 100;
+    }
 }

@@ -7,4 +7,10 @@ public class NoticiaF1 extends Noticia{
         super(titular, puntacio, preu);
         this.escudera = escudera;
     }
+
+    @Override
+    public void calcularPreuNoticia() {
+        int preuInicial = 100;
+        int ferMer = 50;
+    }
 }

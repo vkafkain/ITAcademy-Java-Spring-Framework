@@ -6,4 +6,10 @@ public class NoticiaMotociclisme extends Noticia{
         super(titular, puntacio, preu);
         this.equip = equip;
     }
+
+    @Override
+    public void calcularPreuNoticia() {
+        int preuInicial = 100;
+        int honYam = 50;
+    }
 }

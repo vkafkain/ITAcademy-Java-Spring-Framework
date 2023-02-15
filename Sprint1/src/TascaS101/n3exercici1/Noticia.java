@@ -43,6 +43,7 @@ public abstract class Noticia {
     public void setPreu(int preu) {
         this.preu = preu;
     }
+    public abstract void calcularPreuNoticia();
 
     @Override
     public String toString() {

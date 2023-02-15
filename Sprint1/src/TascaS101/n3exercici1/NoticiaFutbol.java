@@ -11,4 +11,11 @@ public class NoticiaFutbol extends Noticia {
         this.jugador = jugador;
     }
 
+    @Override
+    public void calcularPreuNoticia() {
+        int preuInicial = 300;
+        int champions = 100;
+        int barMad = 100;
+        int ferBen = 50;
+    }
 }

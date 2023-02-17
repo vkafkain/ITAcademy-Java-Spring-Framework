@@ -8,10 +8,33 @@ public class NoticiaBasquet extends Noticia{
         super(titular, puntacio, preu);
     }
 
-    @Override
     public void calcularPreuNoticia() {
-        int preuInicial = 250;
-        int euroLLiga = 75;
-        int barMad = 75;
+
+        int preu = 250;
+
+        if ( competicio.equals("Eurolliga")) {
+            preu += 75;
+        }
+        if (club.equals("Barça") || club.equals("Madrid")){
+            preu += 75;
+        }
+
+        System.out.println(preu + " €");
+    }
+
+    @Override
+    public void calcularPuntuacioNoticia() {
+        int puntuacio = 4;
+
+        if ( competicio.equals("Eurolliga")) {
+            puntuacio += 3;
+        }if ( competicio.equals("ACB")) {
+            puntuacio += 2;
+        }
+        if (club.equals("Barça") || club.equals("Madrid")){
+            puntuacio += 1;
+        }
+
+        System.out.println(puntuacio + " punts");
     }
 }

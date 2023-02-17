@@ -7,9 +7,22 @@ public class NoticiaMotociclisme extends Noticia{
         this.equip = equip;
     }
 
+
     @Override
     public void calcularPreuNoticia() {
-        int preuInicial = 100;
-        int honYam = 50;
+        int preu = 100;
+        if (equip.equals("Honda") || equip.equals("Yamaha")){
+            preu += 50;
+        }
+        System.out.println(preu + " €");
+    }
+
+    @Override
+    public void calcularPuntuacioNoticia() {
+        int puntuacio = 3;
+        if (equip.equals("Honda") || equip.equals("Yamaha")){
+            puntuacio += 3;
+        }
+        System.out.println(puntuacio + " punts");
     }
 }
